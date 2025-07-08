@@ -1,0 +1,35 @@
+✅ Project Structure (Basic Agent)  main.py
+arduino
+Copy
+Edit
+agentic-ai/
+├── .venv/                  ← your virtual environment
+├── main.py                 ← where you run the agent
+├── agent/
+│   ├── __init__.py
+│   ├── core.py             ← main agent logic
+│   ├── decisions.py        ← decision-making logic
+│   └── actions.py          ← action logic
+
+
+
+
+
+
+app.py
+🧱 3. Create a Modular Agent Architecture
+Break the agent into components:
+
+bash
+Copy
+Edit
+agentic-ai/
+├── main.py
+├── agent/
+│   ├── __init__.py
+│   ├── state.py
+│   ├── decisions.py
+│   └── actions.py
+      
+
+
